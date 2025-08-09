@@ -12,7 +12,11 @@
     <name>VeinMiner_Pro</name>
 
     <properties>
-        <java.version>21</java.version>
+        <!--
+          THE ONLY CHANGE IS HERE:
+          Changed from 21 to 17 to match the Minecraft standard and the build environment.
+        -->
+        <java.version>17</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
