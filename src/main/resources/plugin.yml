@@ -1,0 +1,11 @@
+name: VeinMiner_Pro
+version: '1.0-SNAPSHOT'
+main: hatim.plugings.veinMiner_Pro.VeinMiner_Pro
+api-version: '1.21'
+author: J1KA
+description: The definitive tool for mining ores and felling trees.
+commands:
+  vm:
+    description: Toggles VeinMinerPro features.
+    usage: /vm <ores|trees> <on|off>
+    aliases: [veinminerpro]
